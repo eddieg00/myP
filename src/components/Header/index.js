@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function Header() {
+function Header({changePage}) {
     return (
         <header>
             <div>
@@ -8,10 +8,10 @@ function Header() {
             </div>
             <nav>
                 <ul>
-                    <li><a>About</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Contact</a></li>
-                    <li><a>Resume</a></li>
+                    <li><a onClick={() => changePage("About")}>About</a></li>
+                    <li><a onClick={() => changePage("Projects")}>Projects</a></li>
+                    <li><a onClick={() => changePage("Contact")}>Contact</a></li>
+                    <li><a onClick={() => changePage("Resume")}>Resume</a></li>
                 </ul>
             </nav>
         </header>
