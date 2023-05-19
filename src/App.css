@@ -17,11 +17,11 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #013220;
+}
+
+h1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+p {
+  color: #ffff;
+  font-size: 24px;
+}
+
+
+.my-link {
+  color: #fff;
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 10px;
 }

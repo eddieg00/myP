@@ -8,10 +8,10 @@ function Header({changePage}) {
             </div>
             <nav>
                 <ul>
-                    <li><a onClick={() => changePage("About")}>About</a></li>
-                    <li><a onClick={() => changePage("Projects")}>Projects</a></li>
-                    <li><a onClick={() => changePage("Contact")}>Contact</a></li>
-                    <li><a onClick={() => changePage("Resume")}>Resume</a></li>
+                    <li><a className="my-link" onClick={() => changePage("About")}>About</a></li>
+                    <li><a className="my-link" onClick={() => changePage("Projects")}>Projects</a></li>
+                    <li><a className="my-link" onClick={() => changePage("Contact")}>Contact</a></li>
+                    <li><a className="my-link" onClick={() => changePage("Resume")}>Resume</a></li>
                 </ul>
             </nav>
         </header>
