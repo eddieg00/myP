@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import './App.css';
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -33,6 +34,7 @@ function App() {
     <div className="App">
       <Header changePage={changePage}/>
       {renderPage()}
+      <Footer/>
     </div>
   );
 }
