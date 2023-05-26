@@ -24,6 +24,11 @@
   color: rgb(255, 255, 255);
 }
 
+.head {
+  display: flex;
+  justify-content: center;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -42,11 +47,12 @@
   justify-content: center;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 1;
 }
 
 .top-nav li {
-  margin-right: 20px;
+  margin-right: 60px;
+  display: flexbox;
 }
 
 .top-nav li:last-child {
@@ -61,24 +67,33 @@
 }
 
 .profile-picture {
-  float: left;
-  margin-right: 20px;
+  
 }
 
 .profile-picture img {
-  width: 100px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
+  width: 200px; /* Adjust the width as needed */
+  height: auto;/* Adjust the height as needed */
   border-radius: 50%; /* Make the image round */
+  border: 3px solid white;
+  margin-top: 5px;
 }
 
+.profile-picture img:hover {
+  border: 3px solid red;
+}
 
 body {
   background-color: #013220;
 }
 
+.about {
+  margin: 0 auto;
+}
+
 h1 {
   color: #fff;
   font-size: 50px;
+  margin-top: 40px;
 }
 
 p {
@@ -91,6 +106,7 @@ p {
   flex-direction: column;
   min-height: 100vh;
 }
+
 
 .footer {
   flex:2;
@@ -105,10 +121,42 @@ p {
   gap: 40px;
 }
 
+/*Contact me  */
+.email {
+  color: #fff;
+}
+
 .input-container {
   display: box; 
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-field,
+.textarea-field {
+  width: 15%;
+  padding: 10px;
+  border: 3px solid #000000;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #606160;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
 }
 
 .input-container label {

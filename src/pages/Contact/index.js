@@ -12,7 +12,7 @@ function Contact() {
       <h1>Contact Me</h1>
       <form onSubmit={handleSubmit}>
         <div className="input-container">
-          <label htmlFor="email">Email Address</label>
+          <label htmlFor="email" className="email">Email Address</label>
           <input
             id="email"
             type="email"
