@@ -90,6 +90,12 @@ body {
   margin: 0 auto;
 }
 
+.about-content {
+  max-width: 800px; /* Adjust the value as needed */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+
 h1 {
   color: #fff;
   font-size: 50px;
