@@ -35,6 +35,7 @@ function Contact() {
           Submit
         </button>
       </form>
+    <h2>You can also find my links at the bottom of the page!</h2>
     </section>
   );
 }
