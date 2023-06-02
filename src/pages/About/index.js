@@ -3,7 +3,7 @@ function About() {
     return (
         <section className="about">
             <h1>About Me</h1>
-            <div className="about-content">
+            <div className="about-content" class="gradient-text">
             <p>I am an aspiring web developer with a strong eagerness to expand my knowledge and skills in the coding field. Recently, 
                 I successfully completed a comprehensive full stack coding bootcamp at the Georgia Institute of Technology, marking a significant milestone in my professional journey.
                  Now, I am actively seeking the next significant step to advance my career.</p>

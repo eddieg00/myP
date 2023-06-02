@@ -4,7 +4,7 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaStackOverflow, FaTwitter, FaInstagr
 export default function Footer() {
   return (
     <div className="container">
-      <footer className="footer rows">
+      <footer className="footer">
         <div className="content has-text-centered">
           <hr />
           {/* <div className="row-is-full">

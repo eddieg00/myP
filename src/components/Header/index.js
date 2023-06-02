@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import me from "../../assets/me.jpg"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import me from "../../assets/me.png"
 
 function Header({changePage}) {
     return (

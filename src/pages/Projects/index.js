@@ -1,9 +1,11 @@
-import React from 'react'
-import notetaker from '../../assets/notetaker.png'
-import passwordgen from '../../assets/passwordgen.png'
-import PJBooks from '../../assets/PJbooks.png'
-import teambuildCL from '../../assets/teambuildCL.png'
-import Musicblog from '../../assets/Musicblog.png'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Card, Button } from 'react-bootstrap';
+import notetaker from '../../assets/notetaker.png';
+import passwordgen from '../../assets/passwordgen.png';
+import PJBooks from '../../assets/PJbooks.png';
+import teambuildCL from '../../assets/teambuildCL.png';
+import Musicblog from '../../assets/Musicblog.png';
 
 
 const Projects = () => {
@@ -47,44 +49,27 @@ const Projects = () => {
   }
 
   return (
-      <div
-          name="portfolio"
-          className="bg-gradient-to-b from-black to-emerald-800 w-full text-white md:h-screen"
-      >
-          <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-              <div className="pb-8">
-                  <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-                      Portfolio
-                  </p>
-                  <p className="py-6">Check out some of my work</p>
-              </div>
-
-              <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                  {projects.map(({ id, src, url, codeUrl }) => (
-                      <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-                          <img
-                              src={src}
-                              alt=""
-                              className="rounded-md duration-200 hover:scale-105"
-                          />
-                          <div className="flex items-center justify-center">
-
-                              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" 
-                              onClick={() => openLinkInNewTab(url)}
-                              >
-                                  Website
-                              </button>
-                              <button key={codeUrl} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
-                              onClick={() => openLinkInNewTab(codeUrl)}
-                              >
-                                  Code
-                              </button>
-                          </div>
-                      </div>
-                  ))}
-              </div>
-          </div>
+    <div name="portfolio" className="bg-gradient-to-b from-black to-emerald-800 w-full text-white md:h-screen">
+      <div className="container py-4">
+        <h1 className="text-4xl font-bold pb-6 border-b-4 border-gray-500">Portfolio</h1>
+        <p className="py-6">Check out some of my work</p>
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          {projects.map(({ id, src, url, codeUrl }) => (
+            <div key={id} className="col">
+              <Card className="shadow">
+                <Card.Img variant="top" src={src} />
+                <Card.Body>
+                  <div className="d-grid gap-2">
+                    <Button variant="primary" onClick={() => openLinkInNewTab(url)}>Website</Button>
+                    <Button variant="secondary" onClick={() => openLinkInNewTab(codeUrl)}>Code</Button>
+                  </div>
+                </Card.Body>
+              </Card>
+            </div>
+          ))}
+        </div>
       </div>
+    </div>
   );
 };
 
