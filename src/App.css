@@ -31,7 +31,7 @@ body {
 }
 
 .gradient-bg {
-  background: linear-gradient(to bottom, #333333, #5c0000);
+  background: linear-gradient(to bottom, #333333, #5c0000, #333333);
 }
 
 
