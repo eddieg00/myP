@@ -24,3 +24,9 @@ N/A
 Please refer to the LICENSE in the repo.
 
 ## Website link
+
+https://eddieg00.github.io/myP/
+
+## Screenshot
+
+![ScreenShot](https://github.com/eddieg00/Social-Network/blob/main/screenshot/Screenshot%20(31).png)
