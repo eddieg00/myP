@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/myP/static/css/main.92d84b5d.css",
+    "main.js": "/myP/static/js/main.c1e43f8c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/myP/static/js/787.1ed0c42c.chunk.js",
+    "static/media/PJbooks.png": "/myP/static/media/PJbooks.841ccc7d477b07f61faf.png",
+    "static/media/me.png": "/myP/static/media/me.c004c769642678c08e7a.png",
+    "static/media/Musicblog.png": "/myP/static/media/Musicblog.47ccbadffd195f3aa6b1.png",
+    "static/media/teambuildCL.png": "/myP/static/media/teambuildCL.f73daab5d1e596d1eb85.png",
+    "static/media/react.png": "/myP/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/myP/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/passwordgen.png": "/myP/static/media/passwordgen.ddb341f65a4173a5bec8.png",
+    "static/media/github.png": "/myP/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/myP/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/myP/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/myP/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/notetaker.png": "/myP/static/media/notetaker.c58f68c8fa0ae26301b7.png",
+    "static/media/MySQL-icon.png": "/myP/static/media/MySQL-icon.43dc9d7885f4f49c3b33.png",
+    "static/media/javascript.png": "/myP/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/myP/index.html",
+    "main.92d84b5d.css.map": "/myP/static/css/main.92d84b5d.css.map",
+    "main.c1e43f8c.js.map": "/myP/static/js/main.c1e43f8c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/myP/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92d84b5d.css",
+    "static/js/main.c1e43f8c.js"
+  ]
+}
